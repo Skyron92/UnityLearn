@@ -1,0 +1,34 @@
+{
+    "name": "RTSCubeControls",
+    "maps": [
+        {
+            "name": "Inputs",
+            "id": "8052d8e1-0985-4890-b5ca-fa1845e24b9e",
+            "actions": [
+                {
+                    "name": "Clic",
+                    "type": "Button",
+                    "id": "23de62d0-445f-4b6d-b496-914911154743",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "41ba0a80-aaa3-4dcd-9e15-2cf0b21d8e1b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Clic",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
