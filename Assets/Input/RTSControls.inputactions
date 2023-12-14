@@ -1,0 +1,34 @@
+{
+    "name": "RTSControls",
+    "maps": [
+        {
+            "name": "InputGameplay",
+            "id": "040cf841-e5ed-4a41-ae47-798c79580b42",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "cbaf6a8b-a066-470e-b058-29301460d75a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "87b6266b-b72c-437b-b76a-af80de62a869",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
