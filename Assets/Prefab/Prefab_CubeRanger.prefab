@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 8729180337606573237}
   - component: {fileID: 8729180337606573236}
   - component: {fileID: 60096370101720419}
-  - component: {fileID: 138684789924304543}
+  - component: {fileID: 1715712188382563041}
   m_Layer: 9
-  m_Name: Prefab_CubeUnits
+  m_Name: Prefab_CubeRanger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,7 +121,7 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &138684789924304543
+--- !u!114 &1715712188382563041
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,8 +130,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8729180337606573235}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f30651a951b24cebbbf4e1a9d686357d, type: 3}
+  m_Script: {fileID: 11500000, guid: e1c3b41356bbff547b46b0e1e62a3177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   baseMaterial: {fileID: 2100000, guid: 50b241b69059e3147a7714993aef8e18, type: 2}
   selectedMaterial: {fileID: 2100000, guid: 47b16057f1ceb2f4c8a69f2fc2688a8e, type: 2}
+  currentState: 0
+  fieldOfView: 60
+  fieldOfFear: 7
+  safeDistance: 15
